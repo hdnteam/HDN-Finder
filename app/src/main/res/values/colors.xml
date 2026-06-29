@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_bg">#FF121620</color>
+    <color name="hdn_cyan">#FF4FC3F7</color>
+    <color name="hdn_surface">#FF1A2030</color>
+</resources>

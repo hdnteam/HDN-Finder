@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer circle ring -->
+    <path
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"/>
+
+    <!-- Inner filled circle -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+        android:fillColor="#0D1520"/>
+
+    <!-- Shield shape in center -->
+    <path
+        android:pathData="M54,36L66,42L66,52C66,60 61,66 54,69C47,66 42,60 42,52L42,42Z"
+        android:fillColor="#00E5FF"
+        android:fillAlpha="0.15"/>
+    <path
+        android:pathData="M54,36L66,42L66,52C66,60 61,66 54,69C47,66 42,60 42,52L42,42Z"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000"/>
+
+    <!-- Checkmark inside shield -->
+    <path
+        android:pathData="M48,52L52,56L60,47"
+        android:strokeColor="#00FFA3"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Signal dots around -->
+    <path
+        android:pathData="M54,22m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00E5FF"/>
+    <path
+        android:pathData="M54,86m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00FFA3"/>
+    <path
+        android:pathData="M22,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00E5FF"/>
+    <path
+        android:pathData="M86,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#00FFA3"/>
+
+</vector>
